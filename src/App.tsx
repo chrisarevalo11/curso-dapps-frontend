@@ -76,7 +76,7 @@ function App(): JSX.Element {
                 onClick={handleMint}
                 disabled={isMinting}
               >
-                {isMinting ? 'Minting...' : 'Mint'}
+                {isMinting ? 'Minting...' : 'Mint token'}
               </button>
             </div>
           )}
